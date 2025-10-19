@@ -18,7 +18,7 @@ from bpy_extras import view3d_utils
 
 # Import from submodules
 from .drawing.draw_polylines import draw_polylines
-from drawing.sync_endpoint_timer import sync_endpoint_timer
+from .drawing.sync_endpoint_timer import sync_endpoint_timer
 from .operators.main import (
     POLYLINE_OT_generate_points,
     POLYLINE_OT_rotate_polyline,
@@ -42,6 +42,7 @@ from .utility.generate_arc_points import generate_arc_points
 from .utility.generate_helix_points import generate_helix_points
 from .utility.generate_spline_points import generate_spline_points
 from .utility.generate_linear_points import generate_linear_points
+from .utility.global_storage import global_storage, draw_handler, update_handler
 
 # ========================== REGISTRATION ==========================
 

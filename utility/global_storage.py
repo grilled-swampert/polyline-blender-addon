@@ -1,3 +1,5 @@
+from ..structures.main import Node, LinkedList, Storage
+
 # Global storage instance
 global_storage = Storage()
 draw_handler = None

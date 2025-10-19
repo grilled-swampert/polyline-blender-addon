@@ -7,7 +7,8 @@ from ..utility.generate_spline_points import generate_spline_points
 from ..utility.generate_linear_points import generate_linear_points
 from ..utility.check_collision import check_collision
 from ..drawing.sync_endpoint_timer import sync_endpoint_timer
-
+from ..drawing.draw_polylines import draw_polylines
+from ..utility.global_storage import global_storage, draw_handler, update_handler
 
 # ========================== OPERATORS ==========================
 
