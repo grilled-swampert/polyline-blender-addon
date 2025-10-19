@@ -42,7 +42,6 @@ from .utility.generate_arc_points import generate_arc_points
 from .utility.generate_helix_points import generate_helix_points
 from .utility.generate_spline_points import generate_spline_points
 from .utility.generate_linear_points import generate_linear_points
-from .utility.global_storage import global_storage
 
 # ========================== REGISTRATION ==========================
 

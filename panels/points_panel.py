@@ -1,3 +1,6 @@
+from ..utility.global_storage import global_storage
+import bpy
+
 class POLYLINE_PT_points_panel(bpy.types.Panel):
     """Points detail panel"""
     bl_label = "Point Details"

@@ -1,3 +1,6 @@
+from ..utility.global_storage import global_storage
+import bpy
+
 class POLYLINE_PT_list_panel(bpy.types.Panel):
     """Polyline list panel"""
     bl_label = "Polyline Library"

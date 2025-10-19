@@ -1,3 +1,7 @@
+from mathutils import Vector, Matrix
+import math
+import bpy
+
 def generate_helix_points(v1, v2, num_points, rotation=0.0):
     """Generate points along a helical path"""
     direction = (v2 - v1).normalized()

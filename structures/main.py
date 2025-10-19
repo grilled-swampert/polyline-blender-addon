@@ -1,3 +1,5 @@
+import bpy
+
 # ========================== DATA STRUCTURES ==========================
 
 class Node:

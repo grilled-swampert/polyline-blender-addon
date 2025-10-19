@@ -1,3 +1,9 @@
+import bpy
+import bmesh
+from ..utility.global_storage import global_storage
+from mathutils import Vector, Matrix
+import math
+
 def generate_arc_points(v1, v2, num_points, rotation=0.0):
     """Generate points along a semicircular arc"""
     center = (v1 + v2) / 2

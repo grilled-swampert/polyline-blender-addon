@@ -1,3 +1,5 @@
+from ..utility.endpoint_positions import sync_endpoint_positions
+
 def sync_endpoint_timer():
     """Timer function to sync endpoints continuously"""
     try:

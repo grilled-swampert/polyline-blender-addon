@@ -1,3 +1,6 @@
+from mathutils import Vector, Matrix
+import math
+
 def generate_spline_points(v1, v2, num_points, rotation=0.0):
     """Generate points along a cubic spline"""
     direction = (v2 - v1).normalized()

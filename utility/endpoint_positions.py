@@ -1,3 +1,7 @@
+import bpy
+import bmesh
+from ..utility.global_storage import global_storage
+
 def sync_endpoint_positions():
     """Sync positions between endpoint empties and mesh vertices"""
     for key in global_storage.polyline_storage:

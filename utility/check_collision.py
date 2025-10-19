@@ -1,3 +1,5 @@
+import bmesh
+
 def check_collision(point, context, threshold=0.01):
     """Check if a point collides with any mesh objects"""
     depsgraph = context.evaluated_depsgraph_get()
