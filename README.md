@@ -19,23 +19,6 @@ Created as a part of Summer Fellowship with FOSSEE, IIT Bombay (2024).
 5. Configure settings (type, start/end points, etc.)
 6. Click "Generate" to create the polyline
 
-## Architecture
-
-```
-Entry Point (__init__.py)
-    ↓
-    ├─→ UI Panels (sidebar interface)
-    ├─→ Operators (button actions)
-    ├─→ Properties (data storage)
-    └─→ Utilities (point generators, collision check)
-            ↓
-        Global Storage
-            ↓
-        Drawing Engine
-            ↓
-        Blender API (renders to viewport)
-```
-
 ## Project Structure
 
 ```
@@ -63,5 +46,8 @@ polyline-addon/
     └── sync_endpoint_timer.py
 ```
 
-<img width="1191" height="2202" alt="Mermaid Chart - Create complex, visual diagrams with text -2025-10-19-125944" src="https://github.com/user-attachments/assets/92a34de2-c47d-4fa5-81ac-92f10ca1a1a1" />
+## Architecture
+
+<img width="595" height="1101" alt="architecture" src="https://github.com/user-attachments/assets/92a34de2-c47d-4fa5-81ac-92f10ca1a1a1" />
+
 
