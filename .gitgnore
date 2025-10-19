@@ -1,3 +1,9 @@
-main.py
-__pycache__
-.git
+# Ignore pycache folders
+__pycache__/
+*/__pycache__/
+
+# Ignore git folder
+.git/
+
+# (Optional) Ignore compiled Python files
+*.pyc
